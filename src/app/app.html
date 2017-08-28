@@ -1,0 +1,24 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="transparent" class="sidebar-header" style="">
+      <div>
+        <img class="smCircleAvatar smCenter" src="https://usercontent2.hubstatic.com/7134529_f520.jpg">
+      </div>
+      <div text-center>
+        <b>Social Influencer</b>
+        <br><b>Cynthia Clark</b>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+    <ion-content class="sidebar-background">
+    <ion-list>
+      <button ion-item menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" class="smTextMedium sidebar-button">
+        <ion-icon name="{{p.icon}}" item-left></ion-icon>
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Business Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background:url('/assets/icon/alpaka-background-blur.png')">
+  <div text-center>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          <div class="profileDisplay owner"></div>
+        </ion-col>
+        <ion-col col-6>
+          <div class="profileDisplay company"></div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <b><div class="smTextLarge" text-center>Sundar Pichai</div></b>
+    <div class="smTextSmall" text-center>Google, CEO</div>
+    <div class="star-rating">
+      <ion-icon name="star" color="orange"></ion-icon>
+      <ion-icon name="star" color="orange"></ion-icon>
+      <ion-icon name="star" color="orange"></ion-icon>
+      <ion-icon name="star" color="orange"></ion-icon>
+      <ion-icon name="star" color="orange"></ion-icon>
+    </div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <button ion-button round small outline icon-left color="green" style="width: 95%;background:white">
+            <ion-icon name="add"></ion-icon>
+            Invite
+        </button>
+        </ion-col>
+        <ion-col col-4>
+          <button ion-button round small outline icon-left color="cyan" style="width: 95%;background:white">
+              <ion-icon name="chatbubbles"></ion-icon>
+              Message
+            </button>
+        </ion-col>
+        <ion-col col-4>
+          <button ion-button round small outline icon-left color="indigo" style="width: 95%;background:white">
+              <ion-icon name="logo-usd"></ion-icon>
+              History
+            </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <ion-card class="smRoundedCorner">
+    <ion-card-content>
+      <div class="smParagraph smTextSmall">
+        Google is an American multinational technology company that specializes in Internet-related services and products. These
+        include online advertising technologies, search, cloud computing, software, and hardware.
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="stats" color="indigo" item-start></ion-icon>
+      <span class="smTextMedium"><b>Company</b></span>
+      <span item-end class="smTextMedium">Google</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-facebook" color="facebook" item-start></ion-icon>
+      <span class="smTextMedium">5000 Followers</span>
+      <span item-end class="smTextMedium">20 posts/day</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-twitter" color="twitter" item-start></ion-icon>
+      <span class="smTextMedium">1000 Followers</span>
+      <span item-end class="smTextMedium">10 tweets/day</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="logo-youtube" color="youtube" item-start></ion-icon>
+      <span class="smTextMedium">1000 Subscribers</span>
+      <span item-end class="smTextMedium">2 videos/day</span>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="contacts" color="ionic" item-start></ion-icon>
+      <span class="smTextMedium"><b>Connections</b></span>
+      <span item-end class="smTextMedium">7470</span>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
