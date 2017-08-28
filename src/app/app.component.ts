@@ -24,6 +24,8 @@ import { RequestDetailPage } from "../pages/request-detail/request";
 import { PremiumPage } from "../pages/premium/premium";
 import { RatingPage } from "../pages/rating/rating";
 import { RateFormPage } from "../pages/rate-form/rate-form";
+import { MessageListPage } from "../pages/message-list/messgae-list";
+import { RatingViewPage } from "../pages/rating-view/rating-view";
 
 @Component({
   templateUrl: 'app.html',
@@ -57,8 +59,10 @@ export class MyApp {
       { title: 'Home' , component: HomePage, icon:'home'},
       { title: 'Business Owners', component: SocialInfluencerPage, icon: 'contacts' },
       { title: 'Business Detail', component: SocialInfluencerDetailPage, icon: 'contacts' },
+      { title: 'Business Owner Ratings', component: RatingViewPage, icon: 'star-half' },  
       { title: 'Youtube Owners', component: YoutubeOwnerPage, icon: 'logo-youtube' },      
       { title: 'Youtube Owner Details', component: YoutubeOwnerDetailPage, icon: 'logo-youtube' }, 
+      { title: 'Messages', component: MessageListPage, icon: 'mail' },
       { title: 'Messaging', component: MessagesPage, icon: 'mail' },
       { title: 'Requests', component: RequestPage, icon: 'person-add' }, 
       { title: 'Requests Details', component: RequestDetailPage, icon: 'person-add' }, 
