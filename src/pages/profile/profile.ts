@@ -13,6 +13,11 @@ import { NavController } from 'ionic-angular';
   color: #007aff !important;
 }
 
+.btn_my {
+  background: #007aff !important;
+  color: #fff !important;
+}
+
     .profileDisplay{
       background:blue;
       border-radius:50%;
