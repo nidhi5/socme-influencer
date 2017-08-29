@@ -3,7 +3,14 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'request',
-  templateUrl: 'request.html'
+  templateUrl: 'request.html',
+  styles: [`
+
+  .swiper_color {
+    color: #007aff !important;
+  }
+  
+  `]
 })
 export class RequestPage {
 
