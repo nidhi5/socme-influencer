@@ -20,6 +20,10 @@ import { NavController } from 'ionic-angular';
     background:url('https://www.infinitybht.com/wp-content/uploads/2017/07/Google_-G-_Logo.svg.png');
     background-size:cover;
   }
+  .style_btn1 {
+    width: 95%;
+    background: #fff;
+  }
 
 
   `]
