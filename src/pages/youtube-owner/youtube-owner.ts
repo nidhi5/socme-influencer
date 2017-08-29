@@ -5,6 +5,14 @@ import { NavController } from 'ionic-angular';
   selector: 'youtube-owner',
   templateUrl: 'youtube-owner.html',
   styles: [`
+
+    .apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+    .swiper_color {
+      color: #007aff !important;
+    }
   
     .div_youtube img {
       position: relative;
