@@ -6,6 +6,9 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'messages.html',
   styles: [`
 
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
   .button {
     border: none;
     background: #00B8D4;
