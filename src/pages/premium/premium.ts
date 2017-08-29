@@ -5,6 +5,14 @@ import { NavController } from 'ionic-angular';
   selector: 'premium',
   templateUrl: 'premium.html',
   styles: [`
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
+
+    .swiper_color {
+  color: #007aff !important;
+}
   .sales-header{
     background:#756ddd;
     color:white;
@@ -18,7 +26,8 @@ import { NavController } from 'ionic-angular';
     color:white;
   }
   ion-card-header{
-    background:orange;
+    background: #007aff !important;
+    color: #fff !important;
   }
   ion-item{
     font-size:12px !important;

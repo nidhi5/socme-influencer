@@ -6,6 +6,10 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'payment-gateway.html',
   styles: [`
 
+  .swiper_color {
+  color: #007aff !important;
+}
+
     .animated { 
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
