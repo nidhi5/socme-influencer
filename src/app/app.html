@@ -10,8 +10,8 @@
       </div>
     </ion-toolbar>
   </ion-header>
-    <ion-content class="sidebar-background">
-    <ion-list>
+    <ion-content class="apply_color">
+    <ion-list class="apply_color">
       <button ion-item menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" class="smTextMedium sidebar-button">
         <ion-icon name="{{p.icon}}" item-left></ion-icon>
         {{p.title}}

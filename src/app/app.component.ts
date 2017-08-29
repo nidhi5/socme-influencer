@@ -42,6 +42,11 @@ import { RatingViewPage } from "../pages/rating-view/rating-view";
     height:180px;
     box-shadow: 0px 2px 15px grey;
   }
+
+  .apply_color {
+    background-color: #b2dff4 !important;
+  }
+
   `]
 })
 export class MyApp {
