@@ -5,6 +5,15 @@ import { NavController } from 'ionic-angular';
   selector: 'rate-form',
   templateUrl: 'rate-form.html',
   styles: [`
+
+  .apply_color {
+      background-color: #b2dff4 !important;
+    }
+    .star {
+	color: #FF9800 !important;
+}.swiper_color {
+  color: #007aff !important;
+}
   .div_parent{
     height: 150px !important;
   }
